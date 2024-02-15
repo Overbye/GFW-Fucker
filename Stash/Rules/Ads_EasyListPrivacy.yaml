@@ -97,7 +97,7 @@ payload:
   - DOMAIN-SUFFIX,dataofpages.com
   - DOMAIN-SUFFIX,demdex.net
   - DOMAIN-SUFFIX,digi-ping.com
-  - DOMAIN-SUFFIXavenue.tech
+  - DOMAIN-SUFFIX,directavenue.tech
   - DOMAIN-SUFFIX,dispatchunique.com
   - DOMAIN-SUFFIX,dispatchvegasplus.com
   - DOMAIN-SUFFIX,dkotrack.com
@@ -2602,9 +2602,9 @@ payload:
   - DOMAIN-SUFFIX,dgcollector.evidon.com
   - DOMAIN-SUFFIX,diagnose.igstatic.com
   - DOMAIN-SUFFIX,dig.ultimedia.com
-  - DOMAIN-SUFFIX-collect.dy-api.com
-  - DOMAIN-SUFFIX-collect.dy-api.eu
-  - DOMAIN-SUFFIX-events-collector.spot.im
+  - DOMAIN-SUFFIX,direct-collect.dy-api.com
+  - DOMAIN-SUFFIX,direct-collect.dy-api.eu
+  - DOMAIN-SUFFIX,direct-events-collector.spot.im
   - DOMAIN-SUFFIX,distillery.wistia.com
   - DOMAIN-SUFFIX,dl.episerver.net
   - DOMAIN-SUFFIX,doppler-beacon.cbsivideo.com
@@ -19037,7 +19037,7 @@ payload:
   - DOMAIN-SUFFIX,dincloud.actonservice.com
   - DOMAIN-SUFFIX,dincloudllc.actonservice.com
   - DOMAIN-SUFFIX,diningalliance.actonservice.com
-  - DOMAIN-SUFFIX.t-mobile.com
+  - DOMAIN-SUFFIX,direct.t-mobile.com
   - DOMAIN-SUFFIX,discover.dignityhealth.org
   - DOMAIN-SUFFIX,discover.interlochen.org
   - DOMAIN-SUFFIX,discover.kloverproducts.com
@@ -35760,8 +35760,8 @@ payload:
   - DOMAIN-SUFFIX,digital.acutx.org
   - DOMAIN-SUFFIX,dinocraft-test.animocabrands.com
   - DOMAIN-SUFFIX,dinocraft.animocabrands.com
-  - DOMAIN-SUFFIX.diarymuslim.com
-  - DOMAIN-SUFFIXions.mdanderson.org
+  - DOMAIN-SUFFIX,direct.diarymuslim.com
+  - DOMAIN-SUFFIX,directions.mdanderson.org
   - DOMAIN-SUFFIX,distiller.kano.link
   - DOMAIN-SUFFIX,dl-dev.tablelist.com
   - DOMAIN-SUFFIX,dl-dev.tytocare.com
