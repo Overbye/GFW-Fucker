@@ -7,7 +7,7 @@
  - [每月优惠](https://t.me/flower_cloud/288)
  - 套餐如下：
 
-![flowerclod](aff/FlowerCloud.png)
+![flowerclod](https://raw.githubusercontent.com/Repcz/Tool/X/docs/aff/FlowerCloud.png)
 
 ## [Academy City Airport](https://www.aca.best/#/register?code=J9Vf5lbX)
  - 流媒体解锁 | 冷门国家 | 家宽节点
@@ -16,7 +16,7 @@
  - 送 MisakaF 合作 Emby
  - 套餐如下：
 
-![aca](aff/ACA.png)
+![aca](https://raw.githubusercontent.com/Repcz/Tool/X/docs/aff/ACA.png)
 
 ## [私房菜](https://cos.cat/ui/#/register?code=pwP8wJIq)
  - 流媒体解锁 | 冷门国家
@@ -25,7 +25,7 @@
  - 送 卷毛鼠 合作 Emby
  - 套餐如下：
 
-![sfc](aff/SFC.PNG)
+![sfc](https://raw.githubusercontent.com/Repcz/Tool/X/docs/aff/SFC.PNG)
 
 
 ## [XQC Retard](https://www.xqc.best/#/register?code=zwB37FuC)
