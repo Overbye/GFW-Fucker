@@ -83,8 +83,10 @@ Tips：脚本任务需 Quantumult X Tunnel （VPN） 处于运行状态，以及
 
 - 添加任务仓库
   > 注意仓库地址使用 raw 格式
+
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI12-6.PNG" width="600">
 
 - 从仓库中添加任务
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI12-7.PNG" width="600">
+
