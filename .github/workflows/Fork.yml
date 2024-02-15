@@ -1,4 +1,4 @@
-# 2024-02-15 17:49
+# 2024-02-15 17:55
 
 name: Fork Filter lists
 
@@ -113,7 +113,7 @@ jobs:
         for file in *.list; do
           if [ "$file" != "Lan.list" ] ; then
             # 删除不必要的部分
-            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g' -e 's/, direct//g' "$file"
+            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g'-e 's/, reject//g' -e 's/, direct//g' "$file"
             # 修改，& ;  修改大小 适配规则
             sed -i -e 's/, /,/g' -e 's/;/# /g' -e 's/host,/HOST,/g' -e 's/host-/HOST-/g'  -e 's/suffix/SUFFIX/g' -e 's/-keyword/-KEYWORD/g' -e 's/ip-cidr/IP-CIDR/g' -e 's/geoip/GEOIP/g' "$file"
             # 修改HOST为DOMAIN
@@ -263,7 +263,7 @@ jobs:
         for file in *.list; do
           if [ "$file" != "ChinaIPv4.list" ] && [ "$file" != "ChinaIPv6.list" ] && [ "$file" != "Lan.list" ]; then
             # 删除不必要的部分
-            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g' -e 's/, direct//g' "$file"
+            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g'-e 's/, reject//g' -e 's/, direct//g' "$file"
             # 修改，& ;  修改大小 适配规则
             sed -i -e 's/, /,/g' -e 's/;/# /g' -e 's/host,/HOST,/g' -e 's/host-/HOST-/g'  -e 's/suffix/SUFFIX/g' -e 's/-keyword/-KEYWORD/g' -e 's/ip-cidr/IP-CIDR/g' -e 's/geoip/GEOIP/g' "$file"
             # 删除extended-matching
@@ -572,7 +572,7 @@ jobs:
         for file in *.list; do
           if [ "$file" != "Lan.list" ] ; then
             # 删除不必要的部分
-            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g' -e 's/, direct//g' "$file"
+            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g'-e 's/, reject//g' -e 's/, direct//g' "$file"
             # 修改，& ;  修改大小 适配规则
             sed -i -e 's/, /,/g' -e 's/;/# /g' -e 's/host,/HOST,/g' -e 's/host-/HOST-/g'  -e 's/suffix/SUFFIX/g' -e 's/-keyword/-KEYWORD/g' -e 's/ip-cidr/IP-CIDR/g' -e 's/geoip/GEOIP/g' "$file"
             # 删除extended-matching
@@ -735,7 +735,7 @@ jobs:
         for file in *.list; do
           if [ "$file" != "Lan.list" ] ; then
             # 删除不必要的部分
-            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g' -e 's/, direct//g' "$file"
+            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g'-e 's/, reject//g' -e 's/, direct//g' "$file"
             # 修改，& ;  修改大小 适配规则
             sed -i -e 's/, /,/g' -e 's/;/# /g' -e 's/host,/HOST,/g' -e 's/host-/HOST-/g'  -e 's/suffix/SUFFIX/g' -e 's/-keyword/-KEYWORD/g' -e 's/ip-cidr/IP-CIDR/g' -e 's/geoip/GEOIP/g' "$file"
             # 删除extended-matching
@@ -945,7 +945,7 @@ jobs:
         for file in *.yaml; do
           if [ "$file" != "Lan.yaml" ] ; then
             # 删除不必要的部分
-            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g' -e 's/, direct//g' "$file"
+            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g'-e 's/, reject//g' -e 's/, direct//g' "$file"
             # 修改，& ;  修改大小 适配规则
             sed -i -e 's/, /,/g' -e 's/;/# /g' -e 's/host,/HOST,/g' -e 's/host-/HOST-/g'  -e 's/suffix/SUFFIX/g' -e 's/-keyword/-KEYWORD/g' -e 's/ip-cidr/IP-CIDR/g' -e 's/geoip/GEOIP/g' "$file"
             # 删除extended-matching
@@ -982,7 +982,7 @@ jobs:
         for file in *.list; do
           if [ "$file" != "Lan.list" ] ; then
             # 删除不必要的部分
-            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g' -e 's/, direct//g' "$file"
+            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g'-e 's/, reject//g' -e 's/, direct//g' "$file"
             # 修改，& ;  修改大小 适配规则
             sed -i -e 's/, /,/g' -e 's/;/# /g' -e 's/host,/HOST,/g' -e 's/host-/HOST-/g'  -e 's/suffix/SUFFIX/g' -e 's/-keyword/-KEYWORD/g' -e 's/ip-cidr/IP-CIDR/g' -e 's/geoip/GEOIP/g' "$file"
             # 删除extended-matching
@@ -1128,7 +1128,7 @@ jobs:
         for file in *.yaml; do
           if [ -f "$file" ]; then
             # 删除不必要的部分
-            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g' -e 's/, direct//g' "$file"
+            sed -i -e 's/,REJECT//g' -e 's/, REJECT//g'-e 's/, reject//g' -e 's/, direct//g' "$file"
             # 修改，& ;  修改大小 适配规则
             sed -i -e 's/, /,/g' -e 's/;/# /g' -e 's/host,/HOST,/g' -e 's/host-/HOST-/g'  -e 's/suffix/SUFFIX/g' -e 's/-keyword/-KEYWORD/g' -e 's/ip-cidr/IP-CIDR/g' -e 's/geoip/GEOIP/g' "$file"
             # 删除extended-matching
