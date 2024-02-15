@@ -61,7 +61,7 @@
 * [自用配置](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX.conf)
 * [自用配置 | 进阶](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX_Pro.conf)
 * [自用配置 | tvOS](https://github.com/Repcz/Tool/raw/X/QuantumultX/QuantumultX_tvOS.conf)
-* [使用方法](quantumutx/newhand.md) | [QuantumutX使用指南](quantumutx/QX-book.md)
+* [使用方法](quantumutx/doc.md) | [QuantumutX使用指南](quantumutx/QX-book.md)
 * [自用规则库](https://github.com/Repcz/Tool/blob/X/QuantumultX/Rules)
 
 ### Shadowrocket
@@ -177,5 +177,43 @@
 - [@zZPiglet](https://github.com/zZPiglet/Task/tree/master)
 - [@ZenmoFeiShi](https://github.com/ZenmoFeiShi)
 - [不良林](https://bulianglin.com/)
+
+ </details>
+
+<details>
+  <summary>广而告之</summary>
+
+- [Flower CLoud](https://flowercloud.net/aff.php?aff=5145)
+  - 流媒体解锁 | 冷门国家
+  - IEPL 专线 SS & Trojan 节点
+  - 实验性 0.2x 倍率节点
+  - [每月优惠](https://t.me/flower_cloud/288)
+  - 套餐如下：
+
+  <img src="https://raw.githubusercontent.com/Repcz/Tool/X/doc/aff/FlowerCloud.png"  width="900"></a>
+
+- [Academy City Airport](https://www.aca.best/#/register?code=J9Vf5lbX)
+  - 流媒体解锁 | 冷门国家 | 家宽节点
+  - 公网中转 SS 节点
+  - 0.2x 倍率节点 | Emby 0.01x倍率节点 | 3x 家宽节点
+  - 送 MisakaF 合作 Emby
+  - 套餐如下：
+
+  <img src="https://raw.githubusercontent.com/Repcz/Tool/X/doc/aff/ACA.png"  width="900"></a>
+
+- [私房菜](https://cos.cat/ui/#/register?code=pwP8wJIq)
+  - 流媒体解锁 | 冷门国家
+  - 公网中转 SS 节点 | 优化直连 VLess、Hysteria2 节点 | IPLC 专线 SS 节点
+  - 直连低倍率节点 | 低倍率 卢森堡 下载节点 | 高倍率专线
+  - 送 卷毛鼠 合作 Emby
+  - 套餐如下：
+
+  <img src="https://raw.githubusercontent.com/Repcz/Tool/X/doc/aff/SFC.PNG"  width="900"></a>
+
+- [XQC Retard](https://www.xqc.best/#/register?code=zwB37FuC)
+  - [Academy City Airport](https://www.aca.best/#/register?code=J9Vf5lbX) 家的公益机场
+  - Vless  Reality xtls-rprx-vision 协议
+  - 目前 0 元购
+  - 支持 Shadowrocket、V2ray/Xray、sing-box、mihomo(Clash Meta)
 
  </details>

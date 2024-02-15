@@ -8,7 +8,7 @@
     * [Clash for Windows 预处理配置](clash/cfw.md)
 * [Egern 配置使用方法](egern/doc.md)
 * [Loon 配置使用方法](loon/doc.md)
-* [Quantumut X 新手入门](quantumutx/newhand.md)
+* [Quantumut X 新手入门](quantumutx/doc.md)
 * [Quantumut X 使用指南](quantumutx/QX-book.md)
     * [交互界面(UI)](quantumutx/UI.md)
     * [节点订阅](quantumutx/node.md)
@@ -31,3 +31,4 @@
     * [自用模块](surge/module.md)
 * [正则表达式语法](regex/doc.md)
     * [常用节点正则筛选表达式](regex/use.md)
+* [广而告之](aff/aff.md)
