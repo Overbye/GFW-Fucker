@@ -23,7 +23,7 @@
 
 #### 去广告重写
 
-- [去广告频道](t.me/Aa28413761)
+- [去广告频道](https://t.me/Aa28413761)
 
 - [MyblockAds @RuCu6](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%5B%22https%3A%2F%2Fraw.githubusercontent.com%2FRuCu6%2FQuanX%2Fmain%2FRules%2FMyBlockAds.list%2C%20tag%3DMyBlockAds%2C%20force-policy%3Dreject%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20inserted-resource%3Dtrue%2C%20enabled%3Dtrue%22%5D%2C%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fraw.githubusercontent.com%2FRuCu6%2FQuanX%2Fmain%2FRewrites%2FMyBlockAds.conf%2C%20tag%3DMyBlockAds%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20inserted-resource%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D)：[点此查看维护列表](https://t.me/GitCube/21)
 - [宝宝树孕育 @RuCu6](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%5B%22https%3A%2F%2Fraw.githubusercontent.com%2FRuCu6%2FQuanX%2Fmain%2FRules%2FMyBlockAds.list%2C%20tag%3DMyBlockAds%2C%20force-policy%3Dreject%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20inserted-resource%3Dtrue%2C%20enabled%3Dtrue%22%5D%2C%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fraw.githubusercontent.com%2FRuCu6%2FQuanX%2Fmain%2FRewrites%2FCube%2Fbabytree.snippet%2C%20tag%3Dbabytree%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20inserted-resource%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D)
@@ -51,6 +51,11 @@
     - 需卸载重装
 - [IT之家 @Keywos](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%0A%20%20%22rewrite_remote%22%20%3A%20%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2FRepcz%2FTool%2FX%2FQuantumultX%2FRewrites%2FITHome.snippet%2C%20tag%3DIT%E4%B9%8B%E5%AE%B6%E5%8E%BB%E5%B9%BF%E5%91%8A%40keywos%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20enabled%3Dtrue%22%0A%20%20%5D%0A%7D)
 
+- [小程序净化 @fmz200](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%0A%20%20%22rewrite_remote%22%20%3A%20%5B%0A%20%20%20%20%22https%3A%2F%2Fmirror.ghproxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Ffmz200%2Fwool_scripts%2Fmain%2FQuantumultX%2Frewrite%2Fcleanup.snippet%2C%20tag%3DApp%26%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%87%80%E5%8C%96%E5%90%88%E9%9B%86%40fmz200%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20enabled%3Dtrue%22%0A%20%20%5D%0A%7D)
+- [去广告 @fmz200](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22filter_remote%22%3A%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Ffmz200%2Fwool_scripts%2Fmain%2FQuantumultX%2Ffilter%2Ffenliu.list%2C%20tag%3D%E5%88%86%E6%B5%81%E5%8E%BB%E5%B9%BF%E5%91%8A%20%40fmz200%2C%20force-policy%3Dreject%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20inserted-resource%3Dfalse%2C%20enabled%3Dtrue%22%5D%2C%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Ffmz200%2Fwool_scripts%2Fmain%2FQuantumultX%2Frewrite%2Fchongxie.txt%2C%20tag%3D%E9%87%8D%E5%86%99%E5%8E%BB%E5%B9%BF%E5%91%8A%20%40fmz200%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20inserted-resource%3Dfalse%2C%20enabled%3Dtrue%22%5D%7D)
+    - 搭配 [分流修正规则](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%0A%20%20%22filter_remote%22%20%3A%20%5B%0A%20%20%20%20%22https%3A%2F%2Fraw.githubusercontent.com%2Ffmz200%2Fwool_scripts%2Fmain%2FQuantumultX%2Ffilter%2Ffenliuxiuzheng.list%2C%20tag%3D%E5%88%86%E6%B5%81%E4%BF%AE%E6%AD%A3%20%40fmz200%2C%20force-policy%3Ddirect%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20enabled%3Dtrue%22%0A%20%20%5D%0A%7D) 使用（一键导入），需置顶
+    - 可能存在误杀，请自行排除或反馈
+    - [分流地址](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/filter/fenliu.list)、[重写地址](https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt)
 
 #### 功能类重写
 
@@ -58,7 +63,7 @@
 
 
 
-- [整点薯条 @VirgilClyne](https://github.com/VirgilClyne)
+- 整点薯条 [@VirgilClyne](https://github.com/VirgilClyne)
 
     > 点击链接查看详情
 
@@ -87,10 +92,12 @@
 
 - [Test Flight 下载解锁 @NobyDa](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%0A%20%20%22rewrite_remote%22%20%3A%20%5B%0A%20%20%20%20%22https%3A%2F%2Fmirror.ghproxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FNobyDa%2FScript%2Fmaster%2FQuantumultX%2FTestFlightDownload.conf%2C%20tag%3DTF%E4%B8%8B%E8%BD%BD%E8%A7%A3%E9%94%81%40NobyDa%2C%20update-interval%3D172800%2C%20opt-parser%3Dfalse%2C%20enabled%3Dtrue%22%0A%20%20%5D%0A%7D)
 
+- [QX & Surge & Loon 脚本搜集频道](https://t.me/NobyDa)
+
 #### 解锁类重写
 
 - [Spotify解锁 @app2smile](https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%0A%20%20%22rewrite_remote%22%20%3A%20%5B%0A%20%20%20%20%22https%3A%2F%2Fmirror.ghproxy.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fapp2smile%2Frules%2Fmaster%2Fmodule%2Fspotify.conf%2C%20tag%3DSpotify%E8%A7%A3%E9%94%81%40app2smile%2C%20update-interval%3D172800%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%0A%20%20%5D%0A%7D)
     - 不可设置为最高音质！
 
-- [叮当猫频道](t.me/chxm1023)
-- [骨钉频道](t.me/Guding88)
+- [叮当猫频道](https://t.me/chxm1023)
+- [骨钉频道](https://t.me/Guding88)
