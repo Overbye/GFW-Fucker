@@ -33,6 +33,9 @@
 
 ### 1.4 快捷方式：「请求记录」
 
+点击顶部搜索栏可对 Host、URL、Rule、Rewrite、Script、UserAgent 进行搜索
+
+
 - 蓝色表示当前请求状态为已完成
 
 - 绿色表示当前请求状态为未完成
@@ -85,3 +88,13 @@
 当使用复写规则对请求进行处理时，🔒的右侧会有紫色文件夹📁图标
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.6.PNG" width="600">
+
+#### 1.5 快捷方式：「DNS记录」
+
+点击顶部搜索栏可对 IP、Domain、Server 进行搜索
+
+点击可查看记录对应的 域名、DNS服务器、查询结果、查询日期、TTL、状态
+
+`A`记录 表示 IPv4 ，`AAAA`记录 表示 IPv6
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.5.PNG" width="900">
