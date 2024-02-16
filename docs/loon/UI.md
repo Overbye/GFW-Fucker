@@ -96,7 +96,7 @@
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.6.PNG" width="600">
 
-#### 1.5 快捷方式：「DNS记录」
+### 1.5 快捷方式：「DNS记录」
 
 点击顶部搜索栏可对 IP、Domain、Server 进行搜索
 
