@@ -285,7 +285,7 @@ resource-parser = https://gitlab.com/sub-store/Sub-Store/-/releases/permalink/la
 `<别名> = <资源路径>,<是否开启解析器>,<UDP开关>,<Fast Open 开关>,<Vmess Aead 开关>,<是否启用>,<图标>`
 
 - <别名>：可以填写机场名称
-- <是否开启解析器>：`parser-enabled = true`，当不起用时，可省略该字段
+- <是否开启解析器>：`parser-enabled = true`，当不使用解析器时，可省略该字段
 - <UDP开关>：`udp=true`
 - <Fast Open 开关>：`fast-open=false`
 - <Vmess Aead 开关>：`vmess-aead=true`
