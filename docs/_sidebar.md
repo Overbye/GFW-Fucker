@@ -22,7 +22,7 @@
     * [配置文件`[general]`部分](quantumutx/general.md)
     * [配置文件相关](quantumutx/profile.md)
     * [资源解析器使用](quantumutx/parser.md)
-    * [Url Scheme](quantumutx/url-scheme.md)
+    * [URL Scheme](quantumutx/url-scheme.md)
     * [授权 & 相关文档](quantumutx/authorize.md)
     * [资源搜集](quantumutx/resource.md)
         * [分流仓库](quantumutx/resource.md?id=常用分流)
