@@ -12,7 +12,7 @@
         * [仪表](loon/UI.md?id=_11-loon-开关-amp-分流模式)
         * [策略](loon/UI.md?id=_115-「策略」标签页)
     * [节点](loon/node.md)
-        * [本地节点](loon/node.md)
+        * [本地节点](loon/node.md?id=_22-添加本地节点)
 * [Quantumut X 使用指南](quantumutx/QX-book.md)
     * [新手入门](quantumutx/doc.md)
     * [交互界面(UI)](quantumutx/UI.md)
