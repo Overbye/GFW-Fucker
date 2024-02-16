@@ -33,9 +33,15 @@
 
 ### 1.4 快捷方式：「请求记录」
 
-#### 蓝色TCP
+- 蓝色表示当前请求状态为已完成
 
-表示当前请求状态为已完成，点击可查看概述(详情)
+- 绿色表示当前请求状态为未完成
+
+- 红色表示当前请求状态为失败
+
+
+#### TCP/COONCT
+
 
 可在概述中查看请求时间、状态、目标地址、流量大小、MITM、规则、策略等信息
 
@@ -51,17 +57,31 @@
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.2.PNG" width="300">
 
 
-#### 绿色TCP
 
-表示当前请求状态为未完成，点击可查看概述(详情)
+当状态为失败时，会根据策略返回相应的数据(例如去广告适用的 REJECT 返回 HTTP 404)，或是当前请求连接失败，点击可查看概述(详情)
 
-
-#### 红色TCP
-
-表示当前请求状态为失败，会根据策略返回相应的数据(例如 REJECT 返回 HTTP 404)，点击可查看概述(详情)
-
-点击概述页右上角 `···` 可快捷添加规则
-
-点击 订阅规则、插件可查看对应的内容
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.3.PNG" width="900">
+
+
+#### POST/GET
+
+在客户机和服务器之间进行请求-响应时，两种最常被用到的方法是：GET 和 POST。
+
+- GET - 从指定的资源请求数据。
+- POST - 向指定的资源提交要被处理的数据。
+
+
+当 MITM 了对应的主机名，此时POST/GET右侧会有蓝色的🔒
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.4.PNG" width="600">
+
+当使用脚本对请求进行处理时，🔒的右侧会有绿色文件夹📁图标
+
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.5.PNG" width="600">
+
+
+当使用复写规则对请求进行处理时，🔒的右侧会有紫色文件夹📁图标
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.6.PNG" width="600">
