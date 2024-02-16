@@ -17,6 +17,8 @@
 
 点击「节点」可对「仪表标签页」所展示的快捷方式进行编辑
 
+拖动右侧 `≡`，可进行排序
+
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.2.PNG">
 
 
@@ -28,3 +30,38 @@
 点击可查看当前所有节点数目，点击「节点」或右下角图标 可查看
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.3.PNG">
+
+### 1.4 快捷方式：「请求记录」
+
+#### 蓝色TCP
+
+表示当前请求状态为已完成，点击可查看概述(详情)
+
+可在概述中查看请求时间、状态、目标地址、流量大小、MITM、规则、策略等信息
+
+点击概述页右上角 `···` 可快捷添加规则
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.1.PNG" width="900">
+
+
+当开启`SNI辅助规则匹配`后，当请求 Host 是 IP 时，会使用 TLS证书 中的 SNI 进行规则匹配，如果匹配不到规则的话会继续用 Host 匹配
+
+长按 SNI 可复制
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.2.PNG" width="300">
+
+
+#### 绿色TCP
+
+表示当前请求状态为未完成，点击可查看概述(详情)
+
+
+#### 红色TCP
+
+表示当前请求状态为失败，会根据策略返回相应的数据(例如 REJECT 返回 HTTP 404)，点击可查看概述(详情)
+
+点击概述页右上角 `···` 可快捷添加规则
+
+点击 订阅规则、插件可查看对应的内容
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.4.3.PNG" width="900">
