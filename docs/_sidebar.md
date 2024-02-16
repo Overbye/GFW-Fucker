@@ -14,6 +14,7 @@
     * [节点](loon/node.md)
         * [本地节点](loon/node.md?id=_22-添加本地节点)
         * [远程节点](loon/node.md?id=_23-添加远程订阅)
+        * [节点筛选](loon/nodefilter.md)
 * [Quantumut X 使用指南](quantumutx/QX-book.md)
     * [新手入门](quantumutx/doc.md)
     * [交互界面(UI)](quantumutx/UI.md)
