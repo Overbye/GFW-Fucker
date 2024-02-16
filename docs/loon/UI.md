@@ -31,6 +31,13 @@
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.3.PNG">
 
+- 点击右上角🔄，可更新
+
+- 拖动右上角 `≡`，可进行排序
+
+- 点击右上角 `＋`，可添加节点
+
+
 ### 1.4 快捷方式：「请求记录」
 
 点击顶部搜索栏可对 Host、URL、Rule、Rewrite、Script、UserAgent 进行搜索
