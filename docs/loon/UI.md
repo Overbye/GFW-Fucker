@@ -118,3 +118,39 @@
 点击插件可查看详情，部分插件可对参数进行调整
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.7.PNG" width="900">
+
+### 1.8 快捷方式：「网络共享」
+
+
+点击右上角灰色「·」，以开启网络共享，此时应变为绿色「·」
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.8.PNG" width="600">
+
+
+#### 代理服务
+
+当启用 `HTTP` or `SOCKS5` 代理服务器时，可为同一网络下其它设备提供 `HTTP` or `SOCKS5` 代理服务
+
+标签页可查看本机IP
+
+点击可查看端口，也可修改端口
+
+其他需要被代理的设备中，应处于同一局域网下，在其 Wi-Fi 设置中填写 Loon 的IP和设置的端口
+
+- WI-FI中通常使用 `HTTP` 代理
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI7-3.PNG" width="900">
+
+
+- Telegram中为`SOCKS5`代理
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI7-4.PNG" width="600">
+
+
+#### MITM 选项
+
+开启后来自局域网中其他设备的请求也会进行MITM
+
+⚠️注意：若要进行MITM，访问设备需要正确的安装Loon所配置的根证书，并获得该设备的信任
+
+
