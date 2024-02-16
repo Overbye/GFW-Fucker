@@ -8,6 +8,7 @@
     * [Clash for Windows 预处理配置](clash/cfw.md)
 * [Egern 配置使用方法](egern/doc.md)
 * [Loon 配置使用方法](loon/doc.md)
+    * [交互界面(UI)](loon/UI.md)
 * [Quantumut X 使用指南](quantumutx/QX-book.md)
     * [新手入门](quantumutx/doc.md)
     * [交互界面(UI)](quantumutx/UI.md)
