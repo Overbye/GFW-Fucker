@@ -25,6 +25,8 @@
     * [Url Scheme](quantumutx/url-scheme.md)
     * [授权 & 相关文档](quantumutx/authorize.md)
     * [资源搜集](quantumutx/resource.md)
+        * [分流仓库](quantumutx/resource.md?id=常用分流)
+        * [重写资源](quantumutx/resource.md?id=重写资源)
         * [图标集](quantumutx/icon.md)
 * [Shadowrocket 配置使用方法](shadowrocket/doc.md)
 * [Stash 配置使用方法](stash/doc.md)
