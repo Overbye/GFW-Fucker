@@ -242,4 +242,11 @@ Loon支持在HTTP/HTTPS请求的每个阶段执行响应的JavaScript脚本，�
 
 ### 1.13 脚本任务
 
+此功能展示的是脚本的执行状态及日志
+
+点击可查看详情
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.13.PNG" width="1200">
+
+
 ### 1.14 抓包记录
