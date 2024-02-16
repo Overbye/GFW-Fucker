@@ -31,6 +31,11 @@
 
 ### 2.2 添加本地节点
 
+
+#### 内置 PROXY 
+
+指向本地节点或者订阅节点中的任何一个（有本地节点默认指向第一个本地节点，当没有本地节点但有订阅节点时，指向第一个订阅的第一个节点，本地节点和订阅节点都不存在时指向DIRECT）
+
 #### 2.2.1 配置文件添加
 
 以下主要讲的是 `[Proxy]` 区块下的内容，所以示例都以 `[Proxy]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Proxy]`。
@@ -249,7 +254,7 @@ jsHTTP = custom,192.168.1.139,6152,script-path=http.js
 ```
 
 
-#### 2.2.2 UI添加
+#### 2.2.2 UI 添加
 
 1. 「仪表标签页」-「节点」 → 点击右上角`＋` → 选择`本地节点`，选择对应协议后填写参数
 
@@ -260,7 +265,7 @@ jsHTTP = custom,192.168.1.139,6152,script-path=http.js
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.2.2.PNG" width="900">
 
 
-
+### 2.3 添加远程订阅
 
 除了可以解析官方定义的节点格式，Loon也可以解析大部分服务提供商所提供的订阅节点，如遇到不支持的情况可以使用节点订阅解析脚本进行解析，目前常用的解析脚本由[SubStore](https://github.com/sub-store-org)提供，可在配置文件的general模块下进行如下配置，在之后的添加订阅节点页面开启解析器即可。
 
@@ -269,5 +274,40 @@ jsHTTP = custom,192.168.1.139,6152,script-path=http.js
 [General]
 resource-parser = https://gitlab.com/sub-store/Sub-Store/-/releases/permalink/latest/downloads/sub-store-parser.loon.min.js
 ```
+
+
+#### 2.3.1 配置文件添加
+
+以下主要讲的是 `[Remote Proxy]` 区块下的内容，所以示例都以 `[Remote Proxy]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Remote Proxy]`。
+
+
+
+`<别名> = <资源路径>,<是否开启解析器>,<UDP开关>,<Fast Open 开关>,<Vmess Aead 开关>,<是否启用>,<图标>`
+
+- <别名>：可以填写机场名称
+- <是否开启解析器>：`parser-enabled = true`，当不起用时，可省略该字段
+- <UDP开关>：`udp=true`
+- <Fast Open 开关>：`fast-open=false`
+- <Vmess Aead 开关>：`vmess-aead=true`
+- <是否启用>：`enabled=true`
+- <图标>：`img-url=`
+
+
+```
+[Remote Proxy]
+
+别名 = 订阅URL,parser-enabled = true,udp=true,fast-open=false,vmess-aead=true,enabled=true,img-url=图标地址
+```
+
+#### 2.3.2 UI 添加
+
+
+1. 「仪表标签页」-「节点」 → 点击右上角`＋` → 选择`添加订阅`
+
+2. 「配置标签页」-「节点」区域 - `节点` → 点击右上角`＋` → 选择`添加订阅`
+
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.3.2.PNG" width="900">
+
 
 
