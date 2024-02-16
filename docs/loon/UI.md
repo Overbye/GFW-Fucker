@@ -185,7 +185,7 @@
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.9.2.PNG" width="600">
 
 
-### 1.10 MitM
+### 1.10 快捷方式：「MitM」
 
 > 此区域对应「配置标签页」-「MitM」区域 - `域名`
 
@@ -204,7 +204,7 @@
 
 
 
-### 1.11 复写
+### 1.11 快捷方式：「复写」
 
 > 此区域对应「配置标签页」-「复写」区域 - `复写`
 
@@ -225,7 +225,7 @@
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.11.PNG" width="1200">
 
-### 1.12 脚本
+### 1.12 快捷方式：「脚本」
 
 > 此区域在功能上对应「配置标签页」-「脚本」区域 - `脚本`，但 UI 上并不一致
 
@@ -240,7 +240,7 @@ Loon支持在HTTP/HTTPS请求的每个阶段执行响应的JavaScript脚本，�
 
 
 
-### 1.13 脚本任务
+### 1.13 快捷方式：「脚本任务」
 
 此功能展示的是脚本的执行状态及日志
 
@@ -249,4 +249,31 @@ Loon支持在HTTP/HTTPS请求的每个阶段执行响应的JavaScript脚本，�
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.13.PNG" width="1200">
 
 
-### 1.14 抓包记录
+### 1.14 快捷方式：「抓包记录」
+
+
+### 1.15 「策略」标签页
+
+此页面展示当前策略组详情及策略走向
+
+点击`＋`，可添加策略组
+
+点击右上角编辑，可对当前策略组进行排序或删除(不可编辑单独的策略组)，此页面下可点击右上角`＋`，可添加策略组
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.15.1.PNG" width="900">
+
+
+长按策略组进行编辑或修改图标
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.15.2.PNG" width="900">
+
+
+#### 顶部策略组分组(标签)
+
+需在「配置标签页」- 右上角 `···` → 「界面」- `策略配置` - `策略分组`进行添加
+
+同时在「界面」- `策略配置` 页，可隐藏自动策略组（仅作用于All标签），可隐藏策略组类型标识，并添加图标集
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.15.3.PNG" width="900">
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.15.4.PNG" width="900">
