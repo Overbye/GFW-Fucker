@@ -227,6 +227,19 @@
 
 ### 1.12 脚本
 
+> 此区域在功能上对应「配置标签页」-「脚本」区域 - `脚本`，但 UI 上并不一致
+
+Loon支持在HTTP/HTTPS请求的每个阶段执行响应的JavaScript脚本，同时也可以定时的执行一些JavaScript脚本
+
+标签页可查看当前脚本数(不包含插件中的脚本)
+
+点击可查看插件或本地所包含的复写规则详情
+
+- [脚本类型](https://loon0x00.github.io/LoonManual/#/cn/script)
+- [脚本API](https://loon0x00.github.io/LoonManual/#/cn/script_api)
+
+
+
 ### 1.13 脚本任务
 
 ### 1.14 抓包记录
