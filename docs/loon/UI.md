@@ -109,7 +109,7 @@
 
 点击顶部搜索栏可对 Name、Author、Describe 进行搜索
 
-- 右上角🔄表示更新
+- 点击右上角🔄，可更新
 
 - 拖动右上角 `≡`，可进行排序
 
@@ -122,7 +122,7 @@
 ### 1.8 快捷方式：「网络共享」
 
 
-点击右上角灰色「·」，以开启网络共享，此时应变为绿色「·」
+点击右上角灰色「●」，以开启网络共享，此时应变为绿色「●」
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.8.PNG" width="600">
 
@@ -153,4 +153,25 @@
 
 ⚠️注意：若要进行MITM，访问设备需要正确的安装Loon所配置的根证书，并获得该设备的信任
 
+### 1.9 快捷方式：「规则」
 
+标签页可查看当前规则总数
+
+- 点击右上角🔄，可更新
+
+- 拖动右上角 `≡`，可进行排序
+
+- 点击右上角 `＋`，可添加规则
+
+
+点击可查看规则详情，左滑规则可对已有规则进行编辑、禁用、删除
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.9.1.PNG" width="900">
+
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.9.3.PNG" width="300">
+
+
+右上角`＋`，可添加远程或本地规则
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.9.2.PNG" width="600">
