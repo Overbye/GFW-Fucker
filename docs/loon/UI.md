@@ -98,3 +98,23 @@
 `A`记录 表示 IPv4 ，`AAAA`记录 表示 IPv6
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.5.PNG" width="900">
+
+### 1.6 快捷方式：「配置文件」
+
+> 此区域对应「配置标签页」-「编辑」区域 - `配置文件`
+
+点击可编辑配置
+
+### 1.7 快捷方式：「插件」
+
+点击顶部搜索栏可对 Name、Author、Describe 进行搜索
+
+- 右上角🔄表示更新
+
+- 拖动右上角 `≡`，可进行排序
+
+- 点击右上角 `＋`，可添加插件
+
+点击插件可查看详情，部分插件可对参数进行调整
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/1.7.PNG" width="900">
