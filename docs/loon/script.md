@@ -8,6 +8,9 @@ Loon支持在HTTP/HTTPS请求的每个阶段执行响应的JavaScript脚本，�
 
 ### 6.1 脚本类型
 
+以下主要讲的是 `[Script]` 区块下的内容，所以示例都以 `[Script]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Script]`。
+
+
 #### 6.1.1 `http-request`
 
 在获得一个 http 请求时触发，可配置的参数：
@@ -19,6 +22,7 @@ Loon支持在HTTP/HTTPS请求的每个阶段执行响应的JavaScript脚本，�
 ##### 配置语法
 
 ```
+[Script]
 http-request ^https?:\/\/(www.)?(example)\.com script-path=localscript.js,tag = requestScript,requires-body = true,timeout = 10,binary-body-mode = false,argument = "1234",enable=true
 ```
 
@@ -53,6 +57,7 @@ http-request ^https?:\/\/(www.)?(example)\.com script-path=localscript.js,tag = 
 ##### 配置语法
 
 ```
+[Script]
 http-response ^https?:\/\/(www.)?(example)\.com script-path=https://example.com/loon.js,timeout=10,requires-body = true,tag = responseScript,enable=true,timeout = 10,binary-body-mode = false,argument = "1234",enable=true
 ```
 
@@ -87,6 +92,7 @@ http-response ^https?:\/\/(www.)?(example)\.com script-path=https://example.com/
 ##### 配置语法
 
 ```
+[Script]
 cron "0 8 * * *" script-path=cron.js,tag = cronScript,enable=true,timeout = 300,argument = "1234",enable=true
 ```
 
@@ -100,6 +106,7 @@ cron "0 8 * * *" script-path=cron.js,tag = cronScript,enable=true,timeout = 300,
 ##### 配置语法
 
 ```
+[Script]
 network-changed script-path=https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Script/netChanged.js,tag=changeModel,timeout = 300,argument = "1234",enable=true
 ```
 
@@ -112,6 +119,7 @@ network-changed script-path=https://raw.githubusercontent.com/Loon0x00/LoonExamp
 ### 配置语法
 
 ```
+[Script]
 generic script-path=https://raw.githubusercontent.com/Loon0x00/LoonExampleConfig/master/Script/generic_example.js,tag=GeoLocation,timeout=10,img-url=location.fill.viewfinder.system,timeout = 300,argument = "1234",enable=true
 ```
 
