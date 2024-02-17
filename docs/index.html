@@ -10,7 +10,13 @@
   <link rel="icon" href="https://raw.githubusercontent.com/Repcz/Tool/X/docs/lucy.ico" type="image/x-icon">
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">
+    <!-- 添加全局搜索框 -->
+    <div id="search-container">
+      <input id="search-input" type="text" placeholder="Search...">
+      <ul id="search-results"></ul>
+    </div>
+  </div>
   <script>
     // Check if prefers-color-scheme is supported
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
