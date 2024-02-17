@@ -35,11 +35,21 @@
       // 仓库地址
       repo: 'https://github.com/Repcz/Tool',
 
+      // 复制按钮中文
       copyCode: {
          buttonText: '点，复制！',
          errorText: '出错了！',
          successText: 'OK!'
       },
+
+      // 回到顶部
+      scrollToTop: {
+          auto: true,
+          text: '🔼',
+          right: 12,
+          bottom: 52,
+          offset: 25
+     },
 
       // 设置搜索配置
       search: 'auto', // 默认值
@@ -146,5 +156,8 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- 引入 Docsify 复制插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 回到顶部功能 -->
+  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+
 </body>
 </html>
