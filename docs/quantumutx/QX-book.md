@@ -1,2 +1,2 @@
-# QuantumultX使用指南？
+# Quantumult X 使用指南？
 
