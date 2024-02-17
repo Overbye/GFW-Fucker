@@ -25,6 +25,7 @@
         * [脚本 API](loon/script_api.md)
     * [插件](loon/plugin.md)
     * [DNS & 映射](loon/dns.md)
+    * [MitM](loon/mitm.md)
     * [URL Scheme](loon/url-scheme.md)
     * [授权 & 相关文档](loon/authorize.md)
 * [Quantumut X 使用指南](quantumutx/QX-book.md)
