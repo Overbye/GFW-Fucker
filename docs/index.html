@@ -24,81 +24,81 @@
     }
 
     window.$docsify = {
-      loadSidebar: true,
-      subMaxLevel: 1,
-      name: '',
-      repo: 'https://github.com/Repcz/Tool',
-      search: 'false', // 默认值
-      search: [
-        '/',            // => /README.md
-        '/quantumutx/authorize',
-        '/quantumutx/newhand', 
-        '/quantumutx/QX-book', 
-        '/quantumutx/UI', 
-        '/quantumutx/node', 
-        '/quantumutx/node', 
-        '/quantumutx/filter', 
-        '/quantumutx/policy', 
-        '/quantumutx/dns', 
-        '/quantumutx/mitm', 
-        '/quantumutx/rewrite', 
-        '/quantumutx/http-js', 
-        '/quantumutx/other-set', 
-        '/quantumutx/general', 
-        '/quantumutx/profile', 
-        '/quantumutx/parser', 
-        '/quantumutx/icon', 
-
-        '/clash/clashverge-1', 
-        '/clash/clashverge-2', 
-        '/clash/clashverge-3', 
-        '/clash/cfw', 
-
-      ],
-
-    // 完整配置参数
-    search: {
-      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-      paths: [], // or 'auto'
-      placeholder: 'Type to search',
-
-      // 支持本地化
-      placeholder: {
-        '/zh-cn/': '搜索',
-        '/': '点击搜索'
-      },
-
-      noData: 'No Results!',
-
-      // 支持本地化
-      noData: {
-        '/zh-cn/': '找不到结果',
-        '/': '没有找到涅'
-      },
-
-      // 搜索标题的最大层级, 1 - 6
-      depth: 6,
-
-      hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
-
-      // 避免搜索索引冲突
-      // 同一域下的多个网站之间
-      namespace: 'website-1',
-
-      // 使用不同的索引作为路径前缀（namespaces）
-      // 注意：仅适用于 paths: 'auto' 模式
-      //
-      // 初始化索引时，我们从侧边栏查找第一个路径
-      // 如果它与列表中的前缀匹配，我们将切换到相应的索引
-      pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
-
-      // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
-      // 匹配到的字符串将被用来识别索引
-      pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
-    }
-    }
+  loadSidebar: true,
+  subMaxLevel: 1,
+  name: '',
+  repo: 'https://github.com/Repcz/Tool',
+  search: {
+    maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+    paths: [], // or 'auto'
+    placeholder: {
+      '/zh-cn/': '搜索',
+      '/': '点击搜索'
+    },
+    noData: {
+      '/zh-cn/': '找不到结果',
+      '/': '没有找到涅'
+    },
+    depth: 6,
+    hideOtherSidebarContent: false,
+    namespace: 'website-1',
+    pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/,
+    paths: [
+      '/README.md',
+      '/clash/doc.md',
+      '/clash/clashverge-1.md',
+      '/clash/clashverge-2.md',
+      '/clash/clashverge-3.md',
+      '/clash/cfw.md',
+      '/egern/doc.md',
+      '/loon/Loon-book.md',
+      '/loon/doc.md',
+      '/loon/UI.md',
+      '/loon/node.md',
+      '/loon/nodefilter.md',
+      '/loon/chain.md',
+      '/loon/filter.md',
+      '/loon/policy.md',
+      '/loon/rewrite.md',
+      '/loon/script.md',
+      '/loon/script_api.md',
+      '/loon/plugin.md',
+      '/loon/dns.md',
+      '/loon/mitm.md',
+      '/loon/profile.md',
+      '/loon/general.md',
+      '/loon/more-set.md',
+      '/loon/url-scheme.md',
+      '/loon/authorize.md',
+      '/quantumutx/QX-book.md',
+      '/quantumutx/doc.md',
+      '/quantumutx/UI.md',
+      '/quantumutx/node.md',
+      '/quantumutx/filter.md',
+      '/quantumutx/policy.md',
+      '/quantumutx/dns.md',
+      '/quantumutx/mitm.md',
+      '/quantumutx/rewrite.md',
+      '/quantumutx/http-js.md',
+      '/quantumutx/other-set.md',
+      '/quantumutx/general.md',
+      '/quantumutx/profile.md',
+      '/quantumutx/parser.md',
+      '/quantumutx/icon.md',
+      '/shadowrocket/doc.md',
+      '/stash/doc.md',
+      '/surfboard/doc.md',
+      '/surge/doc.md',
+      '/surge/module.md',
+      '/regex/doc.md',
+      '/regex/use.md',
+      '/aff/aff.md'
+    ]
+  }
+};
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
