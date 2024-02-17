@@ -19,7 +19,11 @@
 
 ### 3.1 规则优先级
 
-由于一般将 `geoip` 的规则放在本地规则中，多个订阅规则中混合使用 `IP类型` 的规则，并且有部分 `IP类型` 的规则没有配置`no-resolve`，导致很多不必要的 DNS查询，所以**如果一个请求的目标地址是`域名`，会优先匹配`域名类型`的规则**，若**匹配到了`域名类规则`将不会再进行 `IP类规则` 匹配**，若**未匹配到`域名类型`的规则，则会在本地进行 DNS查询，根据查询结果去匹配 `IP类规则`**；
+由于一般将 `geoip` 的规则放在本地规则中，多个订阅规则中混合使用 `IP类型` 的规则，并且有部分 `IP类型` 的规则没有配置`no-resolve`，导致很多不必要的 DNS查询，所以
+- **如果一个请求的目标地址是`域名`，会优先匹配`域名类型`的规则**
+- 若**匹配到了`域名类规则`将不会再进行 `IP类规则` 匹配**
+- 若**未匹配到`域名类型`的规则，则会在本地进行 DNS查询，根据查询结果去匹配 `IP类规则`**
+
 
 除了 `域名` 和 `IP类型` 的规则有优先级，其他所有规则会按照配置文件中的顺序来决定优先级，即：
 - **排在前面的优先级高于排在后面的**
@@ -34,11 +38,11 @@
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/3.2.PNG" width="900">
 
-其规则参数如下：
+其配置参数如下：
 
 ```
 [Rule]
-<规则类型>, <内容条件>, <策略>,「参数」
+<规则类型>,<内容条件>,<策略>,「参数」
 ```
 
 Loon 3.1.5(657) 目前内置两种类型策略：直连和拒绝（共计 12 种）
@@ -195,7 +199,7 @@ URL-REGEX,^http://google\.com,DIRECT
 ```
 
 
-##### `FINAL`规则
+#### 3.2.4 `FINAL`规则
 
 在本地规则的末尾始终有一个 `FINAL` 类型规则兜底
 
@@ -209,8 +213,43 @@ FINAL,DIRECT
 
 ### 3.3 添加订阅规则
 
+订阅规则是一系列规则的集合，只要是满足Loon类型的规则都可以放入规则集中，Loon目前可以承载百万级别数量的规则，无须担心性能和耗时问题。
 
 
 
+以下主要讲的是 `[Remote Rule]` 区块下的内容，所以示例都以 `[Remote Rule]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Remote Rule]`。
 
 
+「配置标签页」-「规则」区域 - `规则` → 右上角`＋`，可添加远程或本地规则
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/3.3.PNG" width="900">
+
+
+配置参数如下：
+
+```
+[Remote Rule]
+https://github.com/Repcz/Tool/raw/X/Loon/Rules/APNs.list, policy = DIRECT, tag = ApplePushService, enabled = true
+```
+
+`<资源路径>, <策略>, <别名>, <是否启用>`
+
+
+- <资源路径>：需使用 `raw` 格式
+
+以下方的Github链接举例(这是个网页，不是真正能使用的资源链接)：
+`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list`
+
+例如在末尾添加`?raw=ture`：
+`https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/QuantumultX/12306/12306.list?raw=ture`
+
+或者直接点击`raw`或者`view`，⁠使用跳转后的链接：
+`https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/12306/12306.list`
+
+或者将链接里的`blob`⁠修改为`raw`：
+`https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/QuantumultX/12306/12306.list`
+
+
+- `policy =` <策略>：除 Loon 内置的策略外，还可选择 本地节点、策略组、代理链等
+- `tag =` <别名>：自定义的名称，分别记忆理解
+- `enabled =` <是否启用>: 若不使用可改为 `false`
