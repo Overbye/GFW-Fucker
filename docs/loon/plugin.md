@@ -58,9 +58,9 @@ dns-server =
 
 插件内的规则指向的策略只能有如下三种，当规则不指定策略时，会默认使用DIRECT
 
-1. DIRECT
-2. REJECT类（REJECT，REJECT-IMG，REJECT-DICT，REJECT-ARRY，REJECT-DROP）
-3. PROXY，代表用户在进行插件配置时手动选择的策略组，如果用户指定了PROXY，但插件却没有进行配置，那最终将按照无法找到策略组的逻辑进行处理（即使用App全局中第一个节点）
+1. `DIRECT`
+2. [`REJECT`类](loon/policy.md?id=_422-拒绝)
+3. `PROXY`，代表用户在进行插件配置时手动选择的策略组，如果用户指定了PROXY，但插件却没有进行配置，那最终将按照无法找到策略组的逻辑进行处理（即使用App全局中第一个节点）
 
 ### 7.3 配置文件添加插件
 
