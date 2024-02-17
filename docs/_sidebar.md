@@ -24,6 +24,7 @@
     * [脚本](loon/script.md)
         * [脚本 API](loon/script_api.md)
     * [插件](loon/plugin.md)
+        * [插件大全](https://getupnote.com/share/notes/zSn1ShBmzNYISKcTgjXE5oHMrNf2/4a3b6152-3dd3-46da-b479-8c30ef6ef8d1)
     * [DNS & 映射](loon/dns.md)
     * [MitM](loon/mitm.md)
     * [配置文件](loon/profile.md)
