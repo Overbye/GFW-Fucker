@@ -25,7 +25,7 @@
 
 
 
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.5.PNG" width="900">
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.5.1.PNG" width="1200">
 
 
 配置文件写法：
