@@ -310,4 +310,24 @@ resource-parser = https://gitlab.com/sub-store/Sub-Store/-/releases/permalink/la
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.3.2.PNG" width="900">
 
 
+### 2.4 节点延迟
+
+> 需在 Loon 开启时，才可对节点进行延迟测试
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.4.1.PNG" width="1200">
+
+由于Loon采用了自己的时延统计方法，所以可能与其他同类工具的测得的时延有所差异：
+
+前面的时延是建立 **TCP** 连接时的三次握手时间总和。需在更多设置中开启；
+
+后面的时延是发出 **HTTP HEADER** 请求后第一次获得响应的时间，它的响应成功与否决定了服务器是否可用。
+
+⚠️ 注意：
+- 自动策略组是对其策略组里配置的`url = `地址做测试(在UI里显示为`Test-URL`)。
+- 手动选择策略组的延迟则是针对`[General]`里的`proxy-test-url = `地址做测试
+- 直连延迟则是针对`[General]`里的`internet-test-url = `地址做测试
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.4.2.PNG" width="1500">
+
+
 

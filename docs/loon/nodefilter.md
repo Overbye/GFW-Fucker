@@ -1,4 +1,4 @@
-### 2.4 筛选节点
+### 2.5 筛选节点
 
 > 功能上类似于其他代理软件的策略组正则筛选，但是更加灵活
 
@@ -27,7 +27,7 @@ Select = NodeSelect,Lᴜᴄʏ Cʟᴏᴜᴅ,花云
 
 当 筛选类型 为 `NodeSelect`，必须使用 UI 勾选节点。
 
-<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.4.1.PNG" width="900">
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.5.PNG" width="900">
 
 
 - NameKeyword：根据节点名字中是否包含相关关键词进行筛选
