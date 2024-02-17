@@ -4,47 +4,24 @@
   <meta charset="UTF-8">
   <title>Tool</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="Lᴜᴄʏ's Tool" content="How to Use？">
+  <meta name="Lᴜᴄʏ's Tool" content="How to Use?">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css">
   <link rel="icon" href="https://raw.githubusercontent.com/Repcz/Tool/X/docs/lucy.ico" type="image/x-icon">
 </head>
 <body>
-  <div id="app">
-    <!-- 添加全局搜索框 -->
-    <div id="search-container">
-      <input id="search-input" type="text" placeholder="Search...">
-      <ul id="search-results"></ul>
-    </div>
-  </div>
+  <div id="app"></div>
   <script>
-    // Check if prefers-color-scheme is supported
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      document.querySelector('link[href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css"]').href = "//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css";
-    }
-
     window.$docsify = {
-  loadSidebar: true,
-  subMaxLevel: 1,
-  name: '',
-  repo: 'https://github.com/Repcz/Tool',
-  search: {
-    maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-    paths: [], // or 'auto'
-    placeholder: {
-      '/zh-cn/': '搜索',
-      '/': '搜索不好用，不如直接找'
-    },
-    noData: {
-      '/zh-cn/': '找不到结果',
-      '/': '没有找到涅'
-    },
-    depth: 5,
-    hideOtherSidebarContent: false,
-    namespace: 'website-1',
-    pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/,
-    paths: [
-      '/README.md',
+      loadSidebar: true,
+      subMaxLevel: 1,
+      name: '',
+      repo: 'https://github.com/Repcz/Tool',
+
+      search: 'auto', // 默认值
+
+    search : [
+      '/',            // => /README.md
       '/clash/doc.md',
       '/clash/clashverge-1.md',
       '/clash/clashverge-2.md',
@@ -93,46 +70,52 @@
       '/regex/doc.md',
       '/regex/use.md',
       '/aff/aff.md'
-    ]
-  }
-};
+    ],
+
+    // 完整配置参数
+    search: {
+      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      paths: [], // or 'auto'
+      placeholder: 'Type to search',
+
+      // 支持本地化
+      placeholder: {
+        '/zh-cn/': '搜索',
+        '/': 'Type to search'
+      },
+
+      noData: 'No Results!',
+
+      // 支持本地化
+      noData: {
+        '/zh-cn/': '找不到结果',
+        '/': 'No Results'
+      },
+
+      // 搜索标题的最大层级, 1 - 6
+      depth: 4,
+
+      hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+
+      // 避免搜索索引冲突
+      // 同一域下的多个网站之间
+      namespace: 'website-1',
+
+      // 使用不同的索引作为路径前缀（namespaces）
+      // 注意：仅适用于 paths: 'auto' 模式
+      //
+      // 初始化索引时，我们从侧边栏查找第一个路径
+      // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+      pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+
+      // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
+      // 匹配到的字符串将被用来识别索引
+      pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+    }
+    }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script>
-    // 自定义搜索插件
-    window.$docsify.plugins = [
-      function(hook, vm) {
-        hook.doneEach(function() {
-          var searchInput = document.getElementById('search-input');
-          var searchResults = document.getElementById('search-results');
-
-          // 在搜索输入框中输入内容时触发搜索
-          searchInput.addEventListener('input', function(event) {
-            var keywords = event.target.value.trim().toLowerCase();
-            if (keywords.length === 0) {
-              searchResults.innerHTML = '';
-              return;
-            }
-
-            var results = [];
-            vm.config.routes.forEach(function(route) {
-              if (route.title && route.title.toLowerCase().indexOf(keywords) !== -1) {
-                results.push(route);
-              }
-            });
-
-            if (results.length > 0) {
-              searchResults.innerHTML = results.map(function(result) {
-                return '<li><a href="#' + result.path + '">' + result.title + '</a></li>';
-              }).join('');
-            } else {
-              searchResults.innerHTML = '<li>No results found</li>';
-            }
-          });
-        });
-      }
-    ];
-  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
