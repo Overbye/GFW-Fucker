@@ -35,6 +35,12 @@
       // 仓库地址
       repo: 'https://github.com/Repcz/Tool',
 
+      copyCode: {
+         buttonText: '点，复制！',
+         errorText: '出错了！',
+         successText: 'OK!'
+      },
+
       // 设置搜索配置
       search: 'auto', // 默认值
 
@@ -140,18 +146,5 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- 引入 Docsify 复制插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <script>
-    // 设置复制代码按钮的文本
-    window.$docsify.copyButtonText = {
-      '/zh-cn/': '复制代码',
-      '/': 'Copy Code'
-    };
-
-    // 设置复制成功提示文本
-    window.$docsify.copyTipText = {
-      '/zh-cn/': '复制成功',
-      '/': 'Copied!'
-    };
-  </script>
 </body>
 </html>
