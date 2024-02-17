@@ -62,6 +62,23 @@ dns-server =
 2. REJECT类（REJECT，REJECT-IMG，REJECT-DICT，REJECT-ARRY，REJECT-DROP）
 3. PROXY，代表用户在进行插件配置时手动选择的策略组，如果用户指定了PROXY，但插件却没有进行配置，那最终将按照无法找到策略组的逻辑进行处理（即使用App全局中第一个节点）
 
-### 7.3 插件推荐
+### 7.3 配置文件添加插件
+
+以下主要讲的是 `[Plugin]` 区块下的内容，所以示例都以 `[Plugin]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Plugin]`。
+
+
+```
+[Plugin]
+https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/LoonGallery.plugin, policy=手动切换, enabled=true
+
+```
+
+`<插件资源链接>, <策略偏好>, <是否启用>`
+
+- `policy= `<策略偏好>：取决于插件内是否存在相关字段
+- `enabled =` <是否启用>: 若不使用可改为 `false`
+
+
+### 7.4 插件推荐
 
 - [可莉插件大全](https://getupnote.com/share/notes/zSn1ShBmzNYISKcTgjXE5oHMrNf2/4a3b6152-3dd3-46da-b479-8c30ef6ef8d1)

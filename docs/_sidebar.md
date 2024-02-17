@@ -23,6 +23,7 @@
     * [脚本](loon/script.md)
         * [脚本 API](loon/script_api.md)
     * [插件](loon/plugin.md)
+    * [DNS & 映射](loon/dns.md)
 * [Quantumut X 使用指南](quantumutx/QX-book.md)
     * [新手入门](quantumutx/doc.md)
     * [交互界面(UI)](quantumutx/UI.md)
