@@ -147,6 +147,21 @@
 
 点击可查看端口，也可修改端口
 
+其对应的配置文件语法：
+
+```
+[General]
+# 是否开启局域网代理访问
+allow-wifi-access = true
+
+# 开启局域网访问后的http代理端口
+wifi-access-http-port = 8899
+
+# 开启局域网访问后的socks5代理端口
+wifi-access-socks5-port = 8898
+```
+
+
 其他需要被代理的设备中，应处于同一局域网下，在其 Wi-Fi 设置中填写 Loon 的IP和设置的端口
 
 - WI-FI中通常使用 `HTTP` 代理

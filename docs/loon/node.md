@@ -327,6 +327,19 @@ resource-parser = https://gitlab.com/sub-store/Sub-Store/-/releases/permalink/la
 - 手动选择策略组的延迟则是针对`[General]`里的`proxy-test-url = `地址做测试
 - 直连延迟则是针对`[General]`里的`internet-test-url = `地址做测试
 
+
+```
+[General]
+# 测速所用的测试链接，如果策略组没有自定义测试链接就会使用这里配置的
+proxy-test-url = http://cp.cloudflare.com/generate_204
+
+# 测试直连时使用的测试连接，用于判断网络连通性
+internet-test-url = http://wifi.vivo.com.cn/generate_204
+
+# 节点测速时的超时秒数
+test-timeout = 3
+```
+
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/2.4.2.PNG" width="1500">
 
 

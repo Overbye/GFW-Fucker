@@ -6,9 +6,28 @@
 
 Loon 仅仅会解密以下域名的流量（来自 http代理和原始TCP 中的https），可以使用通配符 `*` 和 `？` 来表示域名，以` -` 开头来排除一些域名。
 
-有些应用只信任特定的证书，针对这些应用所使用的域名进行解密将会导致问题。
+有些应用只信任特定的证书，针对这些应用所使用的域名进行解密将会导致问题。（例如某些破解插件、重写会导致商店无法登录，某臭名昭著的 `*.*.*.*` 会导致很多软件无法正常使用）
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/9.1.PNG" >
+
+对应配置文件语法
+
+```
+[Mitm]
+
+# 域名
+hostname = 
+
+# 证书
+ca-p12 = 
+ca-passphrase = 
+
+# 跳过服务端证书验证
+skip-server-cert-verify = false
+```
+
+
+
 
 ### 9.2 证书管理
 
