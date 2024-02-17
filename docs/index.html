@@ -31,8 +31,7 @@
       // 侧边栏最大级别
       subMaxLevel: 1,
       // 网站名称
-      name: 'Lᴜᴄʏ Tool',
-      logo: './lucy.ico',
+      name: '',
       // 仓库地址
       repo: 'https://github.com/Repcz/Tool',
 
@@ -117,7 +116,7 @@
         },
 
         // 搜索标题的最大层级，范围为 1 到 6
-        depth: 3,
+        depth: 4,
 
         // 是否隐藏其他侧边栏内容
         hideOtherSidebarContent: true,
@@ -130,6 +129,18 @@
 
         // 通过正则表达式匹配路径前缀
         pathNamespaces: /^(\/(zh-cn|ru-ru))?(\/(v1|v2))?/
+      },
+      
+      // 设置复制代码按钮的文本
+      copyButtonText: {
+        '/zh-cn/': '复制代码',
+        '/': 'Copy Code'
+      },
+
+      // 设置复制成功提示文本
+      copyTipText: {
+        '/zh-cn/': '复制成功',
+        '/': 'Copied!'
       }
     }
   </script>
