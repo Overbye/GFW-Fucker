@@ -1,13 +1,16 @@
 ## 5. 复写
+
+> 以下搬运至 [Loon官方文档 ](https://loon0x00.github.io/LoonManual/#/loon/rewrite)，不定时更新
+
 复写是专门用来处理 HTTP/HTTPS 类型的请求，在请求未发出前，根据所设定的复写类型来修改请求数据，目前可修改 URL 和Header，所有的复写仅针对**http请求**或者**经过解密后的https请求**.
 
->复写的处理会在规则匹配之前
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/5.PNG" width="900">
 
 
 以下主要讲的是 `[Rewrite]` 区块下的内容，所以示例都以 `[Rewrite]` 开头表明在其之下，并不是让你每个参数字段前都加上 `[Rewrite]`。
 
+>复写的处理会在规则匹配之前
 
 ### 5.1 URL 类型复写
 此类复写会修改请求的URL

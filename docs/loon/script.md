@@ -1,7 +1,8 @@
 ## 6. 脚本
-Loon支持在HTTP/HTTPS请求的每个阶段执行响应的JavaScript脚本，同时也可以定时的执行一些JavaScript脚本
 
 > 以下搬运至 [Loon官方文档 ](https://loon0x00.github.io/LoonManual/#/loon/s)，不定时更新
+
+Loon支持在HTTP/HTTPS请求的每个阶段执行响应的JavaScript脚本，同时也可以定时的执行一些JavaScript脚本
 
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/Loon/Photo/6.PNG" width="1200">
 
