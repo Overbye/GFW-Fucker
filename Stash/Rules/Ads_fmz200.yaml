@@ -449,7 +449,7 @@ payload:
 
 # >>>>>>>>>>>>>>> ✅ F ✅ <<<<<<<<<<<<<<
 # > 番茄小说
-  - DOMAIN-SUFFIX,byteimg.com,DIRECT
+  - DOMAIN-SUFFIX,byteimg.com
   - DOMAIN,i.snssdk.com
   - DOMAIN,i-lq.snssdk.com
   - DOMAIN,dig.bdurl.net
