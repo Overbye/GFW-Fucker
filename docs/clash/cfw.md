@@ -5,9 +5,11 @@
 > CFW 本地配置请自行在仓库中自行寻找并参考上文所述方法修改对应的参数。
 
 1. 导入订阅后，确保正常链接外网，启动系统代理
+
 ![1](https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Premium/Photo/1.png)
 
 2. 打开CFW 设置——配置——点击预处理右侧的编辑，会弹出一个编辑器
+
 ![2](https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Premium/Photo/2.png)
 
 3. [点击链接](https://raw.githubusercontent.com/Repcz/Tool/X/Clash/Premium/CFW_parser.yaml)，复制里面的配置，在CFW弹出的编辑器里，替换原有内容，并保存
