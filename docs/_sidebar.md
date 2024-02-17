@@ -19,6 +19,7 @@
     * [规则](loon/filter.md)
     * [策略](loon/policy.md)
         * [策略组](loon/policy.md?id=_44-策略组)
+    * [复写](loon/rewrite.md)
 * [Quantumut X 使用指南](quantumutx/QX-book.md)
     * [新手入门](quantumutx/doc.md)
     * [交互界面(UI)](quantumutx/UI.md)
