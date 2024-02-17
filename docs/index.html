@@ -99,6 +99,40 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script>
+    // 自定义搜索插件
+    window.$docsify.plugins = [
+      function(hook, vm) {
+        hook.doneEach(function() {
+          var searchInput = document.getElementById('search-input');
+          var searchResults = document.getElementById('search-results');
+
+          // 在搜索输入框中输入内容时触发搜索
+          searchInput.addEventListener('input', function(event) {
+            var keywords = event.target.value.trim().toLowerCase();
+            if (keywords.length === 0) {
+              searchResults.innerHTML = '';
+              return;
+            }
+
+            var results = [];
+            vm.config.routes.forEach(function(route) {
+              if (route.title && route.title.toLowerCase().indexOf(keywords) !== -1) {
+                results.push(route);
+              }
+            });
+
+            if (results.length > 0) {
+              searchResults.innerHTML = results.map(function(result) {
+                return '<li><a href="#' + result.path + '">' + result.title + '</a></li>';
+              }).join('');
+            } else {
+              searchResults.innerHTML = '<li>No results found</li>';
+            }
+          });
+        });
+      }
+    ];
+  </script>
 </body>
 </html>
