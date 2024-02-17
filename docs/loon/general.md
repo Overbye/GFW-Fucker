@@ -116,7 +116,7 @@ test-timeout = 3
 
 #### 11.1.11 资源解析器
 
-见[资源解析器](node.md?id=_23-添加远程订阅) 
+见[资源解析器](loon/node.md?id=_23-添加远程订阅) 
 
 ```
 [General]
@@ -194,12 +194,12 @@ switch-node-after-failure-times = 3
 
 
 
-## 11.1.17 SSID工作模式 `ssid-trigger`
+#### 11.1.17 SSID工作模式 `ssid-trigger`
 
 当切换到某一特定的WiFi下时改变Loon的流量模式
-    - `"loon-wifi5g":DIRECT`，表示在loon-wifi5g这个wifi网络下使用直连模式，
-    - `"cellular":PROXY`，表示在蜂窝网络下使用代理模式
-    - `"default":RULE`，默认使用分流模式
+- `"loon-wifi5g":DIRECT`，表示在loon-wifi5g这个wifi网络下使用直连模式，
+- `"cellular":PROXY`，表示在蜂窝网络下使用代理模式
+- `"default":RULE`，默认使用分流模式
 
 
 ```
