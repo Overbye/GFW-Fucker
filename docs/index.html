@@ -42,15 +42,6 @@
          successText: 'OK!'
       },
 
-      // 回到顶部
-      scrollToTop: {
-          auto: true,
-          text: '🔝',
-          right: 12,
-          bottom: 52,
-          offset: 25,
-          duration: 150
-     },
 
       // 设置搜索配置
       search: 'auto', // 默认值
@@ -158,7 +149,18 @@
   <!-- 引入 Docsify 复制插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <!-- 回到顶部功能 -->
-  <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $.goup({
+        trigger: 100,
+        bottomOffset: 52,
+        locationOffset: 25,
+        //title: 'TOP',
+        titleAsText: true
+      });
+    });
+  </script>
 </body>
 </html>
