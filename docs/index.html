@@ -21,7 +21,7 @@
     // 检测设备是否支持 prefers-color-scheme 属性，并检查当前颜色模式是否为暗色模式
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       // 如果是暗色模式，则加载暗色主题样式
-      document.getElementById('theme').href = "//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue-dark.css";
+      document.getElementById('theme').href = "//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css";
     }
 
     // 设置 Docsify 配置
@@ -136,5 +136,9 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- 引入 Docsify 搜索插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 引入 Docsify 图片缩放插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 引入 Docsify 复制插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 </body>
 </html>
