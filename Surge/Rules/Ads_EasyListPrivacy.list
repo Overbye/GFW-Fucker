@@ -1,7 +1,7 @@
 ## [Adblock Plus 1.1]
-## ! Version: 202402141544
+## ! Version: 202402161431
 ## ! Title: EasyPrivacy
-## ! Last modified: 14 Feb 2024 15:44 UTC
+## ! Last modified: 16 Feb 2024 14:31 UTC
 ## ! Expires: 4 days (update frequency)
 ## ! *** easylist:template_header.txt ***
 ## ! 
@@ -45,6 +45,7 @@ DOMAIN-SUFFIX,alpha1trk.com
 DOMAIN-SUFFIX,altopd.com
 DOMAIN-SUFFIX,analys.live
 DOMAIN-SUFFIX,analysis.fi
+DOMAIN-SUFFIX,analyt.ir
 DOMAIN-SUFFIX,anonstat.pw
 DOMAIN-SUFFIX,apeagle.io
 DOMAIN-SUFFIX,apenterprise.io
@@ -96,7 +97,7 @@ DOMAIN-SUFFIX,da29e6b8-f018-490f-b25f-39a887fc95e7.xyz
 DOMAIN-SUFFIX,dataofpages.com
 DOMAIN-SUFFIX,demdex.net
 DOMAIN-SUFFIX,digi-ping.com
-DOMAIN-SUFFIXavenue.tech
+DOMAIN-SUFFIX,directavenue.tech
 DOMAIN-SUFFIX,dispatchunique.com
 DOMAIN-SUFFIX,dispatchvegasplus.com
 DOMAIN-SUFFIX,dkotrack.com
@@ -487,6 +488,7 @@ DOMAIN-SUFFIX,aloofmetal.com
 DOMAIN-SUFFIX,aloofvest.com
 DOMAIN-SUFFIX,alpineactor.com
 DOMAIN-SUFFIX,amazingairplane.com
+DOMAIN-SUFFIX,ambientdusk.com
 DOMAIN-SUFFIX,ambiguousafternoon.com
 DOMAIN-SUFFIX,ambiguousalarm.com
 DOMAIN-SUFFIX,ambiguousanger.com
@@ -900,6 +902,7 @@ DOMAIN-SUFFIX,divergentoffer.com
 DOMAIN-SUFFIX,dk4ywix.com
 DOMAIN-SUFFIX,dockdigestion.com
 DOMAIN-SUFFIX,docksalmon.com
+DOMAIN-SUFFIX,dogcollarfavourbluff.com
 DOMAIN-SUFFIX,dogsshoes.com
 DOMAIN-SUFFIX,dollardelta.com
 DOMAIN-SUFFIX,dolldetail.com
@@ -934,6 +937,7 @@ DOMAIN-SUFFIX,earthycopy.com
 DOMAIN-SUFFIX,eatablesquare.com
 DOMAIN-SUFFIX,echoinghaven.com
 DOMAIN-SUFFIX,economicpizzas.com
+DOMAIN-SUFFIX,educatedeggnog.com
 DOMAIN-SUFFIX,efficaciouscactus.com
 DOMAIN-SUFFIX,ejyymghi.com
 DOMAIN-SUFFIX,elasticchange.com
@@ -1261,6 +1265,7 @@ DOMAIN-SUFFIX,jimny.pro
 DOMAIN-SUFFIX,joblessdrum.com
 DOMAIN-SUFFIX,joyoussurprise.com
 DOMAIN-SUFFIX,jubilantcanyon.com
+DOMAIN-SUFFIX,jubilantglimmer.com
 DOMAIN-SUFFIX,justicejudo.com
 DOMAIN-SUFFIX,k54nw.pw
 DOMAIN-SUFFIX,kaputquill.com
@@ -1644,7 +1649,7 @@ DOMAIN-SUFFIX,reflectivestatement.com
 DOMAIN-SUFFIX,regularplants.com
 DOMAIN-SUFFIX,regulatesleet.com
 DOMAIN-SUFFIX,rehabilitatereason.com
-DOMAIN-SUFFIXfairies.com
+DOMAIN-SUFFIX,rejectfairies.com
 DOMAIN-SUFFIX,relationrest.com
 DOMAIN-SUFFIX,rememberdiscussion.com
 DOMAIN-SUFFIX,repeatsweater.com
@@ -2101,6 +2106,7 @@ DOMAIN-SUFFIX,toweringrun.com
 DOMAIN-SUFFIX,tradetooth.com
 DOMAIN-SUFFIX,tranquilamulet.com
 DOMAIN-SUFFIX,tranquilcanyon.com
+DOMAIN-SUFFIX,tranquilplume.com
 DOMAIN-SUFFIX,tranquilside.com
 DOMAIN-SUFFIX,translateoatmeal.com
 DOMAIN-SUFFIX,trappush.com
@@ -2601,9 +2607,9 @@ DOMAIN-SUFFIX,dfanalytics.dealerfire.com
 DOMAIN-SUFFIX,dgcollector.evidon.com
 DOMAIN-SUFFIX,diagnose.igstatic.com
 DOMAIN-SUFFIX,dig.ultimedia.com
-DOMAIN-SUFFIX-collect.dy-api.com
-DOMAIN-SUFFIX-collect.dy-api.eu
-DOMAIN-SUFFIX-events-collector.spot.im
+DOMAIN-SUFFIX,direct-collect.dy-api.com
+DOMAIN-SUFFIX,direct-collect.dy-api.eu
+DOMAIN-SUFFIX,direct-events-collector.spot.im
 DOMAIN-SUFFIX,distillery.wistia.com
 DOMAIN-SUFFIX,dl.episerver.net
 DOMAIN-SUFFIX,doppler-beacon.cbsivideo.com
@@ -3776,6 +3782,7 @@ DOMAIN-SUFFIX,log.popin.cc
 DOMAIN-SUFFIX,log000.goo.ne.jp
 DOMAIN-SUFFIX,omt.shinobi.jp
 DOMAIN-SUFFIX,panda.kasika.io
+DOMAIN-SUFFIX,ping.paidy.com
 DOMAIN-SUFFIX,rcm.shinobi.jp
 DOMAIN-SUFFIX,reports-tsi.tangerine.io
 DOMAIN-SUFFIX,rlog.popin.cc
@@ -4137,9 +4144,9 @@ DOMAIN-SUFFIX,dc.banggood.com
 DOMAIN-SUFFIX,dd.auspost.com.au
 DOMAIN-SUFFIX,dd.nytimes.com
 DOMAIN-SUFFIX,deliver.ptgncdn.com
-DOMAIN-SUFFIX,df.infra.shopee.ph
 DOMAIN-SUFFIX,discover-metrics.cloud.seek.com.au
 DOMAIN-SUFFIX,dls-account.di.atlas.samsung.com
+DOMAIN-SUFFIX,dot.nonolive.com
 DOMAIN-SUFFIX,dp.shoprunner.com
 DOMAIN-SUFFIX,dtag.breadfinancial.com
 DOMAIN-SUFFIX,dumpster.cam4.com
@@ -4502,6 +4509,7 @@ DOMAIN-SUFFIX,tracking.carsales.com.au
 DOMAIN-SUFFIX,tracking.christianpost.com
 DOMAIN-SUFFIX,tracking.digitalocean.com
 DOMAIN-SUFFIX,tracking.engineering.cloud.seek.com.au
+DOMAIN-SUFFIX,tracking.game8.co
 DOMAIN-SUFFIX,tracking.hsn.com
 DOMAIN-SUFFIX,tracking.shopstyle.co.uk
 DOMAIN-SUFFIX,tracking.shopstyle.com
@@ -4513,7 +4521,6 @@ DOMAIN-SUFFIX,trk.tirto.id
 DOMAIN-SUFFIX,trx3.famousfix.com
 DOMAIN-SUFFIX,ts.delfi.lt
 DOMAIN-SUFFIX,ua.indianexpress.com
-DOMAIN-SUFFIX,ubt.tracking.shopee.ph
 DOMAIN-SUFFIX,ubuyanalytics.ubuy.com
 DOMAIN-SUFFIX,um.contentstudio.io
 DOMAIN-SUFFIX,umami.wakarimasen.moe
@@ -19036,7 +19043,7 @@ DOMAIN-SUFFIX,dimensionfunding.actonservice.com
 DOMAIN-SUFFIX,dincloud.actonservice.com
 DOMAIN-SUFFIX,dincloudllc.actonservice.com
 DOMAIN-SUFFIX,diningalliance.actonservice.com
-DOMAIN-SUFFIX.t-mobile.com
+DOMAIN-SUFFIX,direct.t-mobile.com
 DOMAIN-SUFFIX,discover.dignityhealth.org
 DOMAIN-SUFFIX,discover.interlochen.org
 DOMAIN-SUFFIX,discover.kloverproducts.com
@@ -35759,8 +35766,8 @@ DOMAIN-SUFFIX,digicard.jollyhires.com
 DOMAIN-SUFFIX,digital.acutx.org
 DOMAIN-SUFFIX,dinocraft-test.animocabrands.com
 DOMAIN-SUFFIX,dinocraft.animocabrands.com
-DOMAIN-SUFFIX.diarymuslim.com
-DOMAIN-SUFFIXions.mdanderson.org
+DOMAIN-SUFFIX,direct.diarymuslim.com
+DOMAIN-SUFFIX,directions.mdanderson.org
 DOMAIN-SUFFIX,distiller.kano.link
 DOMAIN-SUFFIX,dl-dev.tablelist.com
 DOMAIN-SUFFIX,dl-dev.tytocare.com

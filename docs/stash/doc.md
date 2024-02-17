@@ -74,6 +74,7 @@ proxy-providers:
 ### 2. 更新远程资源
 * 启动Stash
 * 下方 **策略组** 中，左上角 **下载** ，更新 **远程资源**
+
 ![更新资源](https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/stash2.jpg)
 
 ### 3. 更新**GeoIP数据库**
@@ -95,4 +96,5 @@ https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
 * 在 **可视化编辑** - **策略组** 中，找到 **香港节点** 此时该策略组以 `URL TEST` 运行，即按最低延迟选择节点
 * 如果要修改为手动选择节点，则点击 **香港节点** 策略组， **类型** 选择 `SElECT`，并保存
 * 在 **香港节点** 策略组中选择需要的节点，则 **国外网站** 策略组走 **香港节点** 中选择的节点
+
 ![4](https://raw.githubusercontent.com/Repcz/Tool/X/Stash/Photo/stash4.jpg)

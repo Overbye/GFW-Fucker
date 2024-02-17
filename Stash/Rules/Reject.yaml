@@ -327,6 +327,7 @@ payload:
   - DOMAIN,optimus-ads.amap.com.w.alikunlun.com
   - DOMAIN,ossgw.alicdn.com
   - DOMAIN,otheve.beacon.qq.com
+  - DOMAIN,pagead2.googlesyndication-cn.com
   - DOMAIN,pagead2.googlesyndication.com
   - DOMAIN,pageviewp.icbc.com.cn
   - DOMAIN,pangolin.snssdk.com
@@ -425,7 +426,6 @@ payload:
   - DOMAIN-KEYWORD,adform
   - DOMAIN-KEYWORD,ads.g.doubleclick
   - DOMAIN-KEYWORD,adservice
-  - DOMAIN-KEYWORD,adservice.google.com
   - DOMAIN-KEYWORD,adv.ccb.com
   - DOMAIN-KEYWORD,asewlfjqwlflkew
   - DOMAIN-KEYWORD,asiad.byteactivity
@@ -763,6 +763,7 @@ payload:
   - DOMAIN-SUFFIX,dv8c1t.cn
   - DOMAIN-SUFFIX,dvzk66.cn
   - DOMAIN-SUFFIX,dwyhup.cn
+  - DOMAIN-SUFFIX,e.kuaishou.cn
   - DOMAIN-SUFFIX,e.kuaishou.com
   - DOMAIN-SUFFIX,e.qq.com
   - DOMAIN-SUFFIX,e67repidwnfu7gcha.com

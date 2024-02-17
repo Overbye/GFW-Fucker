@@ -8,6 +8,7 @@
 其对应的配置文件位置为 `[task_local]`
 
 可通过首页下方工具栏进入（默认UI），或　点击右下角「风车」进入设置 → 下方「工具 & 分析」- 「HTTP 请求」
+
 <img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI12-1.PNG" width="600">
 
 ### 8.1 添加 HTTP 请求
@@ -79,3 +80,13 @@ Tips：脚本任务需 Quantumult X Tunnel （VPN） 处于运行状态，以及
   也可左滑点击按钮执行或查看执行时的日志
 
 #### 8.3 任务仓库
+
+- 添加任务仓库
+  > 注意仓库地址使用 raw 格式
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI12-6.PNG" width="600">
+
+- 从仓库中添加任务
+
+<img src="https://raw.githubusercontent.com/Repcz/Tool/X/QuantumultX/Photo/UI12-7.PNG" width="600">
+

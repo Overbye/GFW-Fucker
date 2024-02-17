@@ -153,6 +153,8 @@ Surge
 - [@deezertidal](https://github.com/deezertidal)
 - [@ddgksf2013](https://github.com/ddgksf2013/)
 - [@DivineEngine](https://github.com/DivineEngine)
+- [@dler-io](https://github.com/dler-io/Rules)
+- [@fmz200](https://github.com/fmz200)
 - [@GetSomeCats](https://github.com/getsomecat)
 - [@Hackl0us](https://github.com/Hackl0us)
 - [@iKeLee](https://gitlab.com/lodepuly/vpn_tool)
