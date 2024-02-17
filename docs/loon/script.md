@@ -87,8 +87,8 @@ http-response ^https?:\/\/(www.)?(example)\.com script-path=https://example.com/
 #### 6.1.3 `cron`
 
 - 根据设定的cron表达式定时触发脚本
-- "* * * * *" : 分 时 日 月 周 
-- "* * * * * *" :秒 分 时 日 月 周
+- `"* * * * *"` : 分 时 日 月 周 
+- `"* * * * * *"` :秒 分 时 日 月 周
 
 ##### 配置语法
 
