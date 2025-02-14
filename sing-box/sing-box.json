@@ -28,7 +28,7 @@
             {"outbound": "any","server": "ali"},
             {"clash_mode": "全局直连","action": "route","server": "ali"},
             {"clash_mode": "全局代理","action": "route","server": "remote_fakeip"},
-            {"query_type": ["A","AAAA"],"action": "route","server": "remote_fakeip"},
+            {"query_type": ["A","AAAA"],"action": "route","server": "remote_fakeip","rewrite_ttl": 1},
             {"rule_set": ["GeoSite@CN","Apple"],"action": "route","server": "ali"}
         ],
         "final": "cloudflare",
