@@ -1,23 +1,4 @@
 {
-    "log": {
-        "disabled": false,
-        "level": "info",
-        "output": "sing-box.log",
-        "timestamp": true
-    },
-    "experimental": {
-        "cache_file": {
-            "enabled": true,
-            "store_fakeip": true
-        },
-        "clash_api": {
-            "default_mode": "规则模式",
-            "external_controller": "127.0.0.1:9090",
-            "external_ui": "ui",
-            "external_ui_download_url": "https://git.repcz.link/github.com/Zephyruso/zashboard/releases/latest/download/dist.zip",
-            "external_ui_download_detour": "Proxy"
-        }
-    },
     "dns": {
         "servers": [
             {"tag": "cloudflare","address": "https://1.1.1.1/dns-query","detour": "Proxy"},
@@ -36,32 +17,6 @@
         "independent_cache": true,
         "strategy": "ipv4_only"
     },
-    "inbounds": [
-        {
-            "type": "mixed",
-            "tag": "mixed",
-            "listen": "127.0.0.1",
-            "listen_port": 7080,
-            "set_system_proxy": false
-        },
-        {
-            "type": "tun",
-            "tag": "tun",
-            "address": [
-                "172.18.0.1/30",
-                "fdfe:dcba:9876::1/126"
-            ],
-            "platform": {
-                "http_proxy": {
-                    "enabled": true,
-                    "server": "127.0.0.1",
-                    "server_port": 7080
-                }
-            },
-            "stack": "mixed",
-            "auto_route": true
-        }
-    ],
     "outbounds": [
         {"tag": "direct","type": "direct"},
         {"tag": "Proxy","type": "selector","outbounds": ["🇭🇰 HongKong","🇺🇸 United States","🇸🇬 Singapore","🇯🇵 Japan","🇨🇳 Taiwan","direct"],"default": "direct","interrupt_exist_connections": true},
@@ -132,5 +87,48 @@
         "find_process": false,
         "auto_detect_interface": true,
         "final": "Final"
-    }
+    },
+    "log": {
+        "disabled": false,
+        "level": "info",
+        "output": "sing-box.log",
+        "timestamp": true
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": true
+        },
+        "clash_api": {
+            "default_mode": "规则模式",
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "ui",
+            "external_ui_download_url": "https://git.repcz.link/github.com/Zephyruso/zashboard/releases/latest/download/dist.zip",
+            "external_ui_download_detour": "Proxy"
+        }
+    },
+    "inbounds": [
+        {
+            "type": "mixed",
+            "listen": "127.0.0.1",
+            "listen_port": 7080,
+            "set_system_proxy": false
+        },
+        {
+            "type": "tun",
+            "address": [
+                "172.18.0.1/30",
+                "fdfe:dcba:9876::1/126"
+            ],
+            "platform": {
+                "http_proxy": {
+                    "enabled": true,
+                    "server": "127.0.0.1",
+                    "server_port": 7080
+                }
+            },
+            "stack": "mixed",
+            "auto_route": true
+        }
+    ]
 }
